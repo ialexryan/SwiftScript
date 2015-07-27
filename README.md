@@ -1,5 +1,5 @@
 # SwiftScript
-A Swift-to-JavaScript compiler would be pretty cool, since it would allow development for mobile, desktop, and web in one language. Fortunately the [TypeScript](http://www.typescriptlang.org) folks have done almost all of the hard work, to the point where (a limited subset of) Swift can be converted to TypeScript with nothing but syntax transformations.
+A Swift-to-JavaScript compiler would be pretty cool, since it would allow development for mobile, desktop, and web in one language. Fortunately the [TypeScript](http://www.typescriptlang.org) folks have done almost all of the hard work, and conveniently (a limited subset of) Swift can be converted to TypeScript with nothing but syntax transformations.
 
 This project seeks to create an easy-to-understand and easy-to-use tool for writing TypeScript in Swift syntax. I don't currently plan to add support for all of Swift's long list of advanced features, but we'll see how far it goes.
 
@@ -51,4 +51,4 @@ test({cat: "binx", canine: "fido"})
 `Hello ${a+b} world`
 ```
 ---
-```Bool``` maps to ```boolean```, ```String``` maps to ```string```, and ```Int/Float/Double``` maps to ```number```.
+```Bool``` maps to ```boolean```, ```String``` maps to ```string```, and ```Int/Float/Double``` map to ```number```.
