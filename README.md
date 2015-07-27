@@ -10,14 +10,14 @@ Below are the syntax transformations that will be supported, with Swift code on 
 let x = 5
 ```
 ```TypeScript
-const x = 5
+const x = 5;
 ```
 ---
 ```Swift
 println("Hello")
 ```
 ```TypeScript
-console.log("Hello")
+console.log("Hello");
 ```
 ---
 ```Swift
@@ -26,7 +26,7 @@ test("binx", "fido")
 ```
 ```TypeScript
 function test(cat: string, dog: string): string {}
-test("binx", "fido")
+test("binx", "fido");
 ```
 ---
 ```Swift
@@ -37,7 +37,7 @@ test(cat: "bijou", canine: "fido")
 ```
 ```TypeScript
 function test(args: {cat: string, canine: string}): string {
-    var cat = args.cat
+    var cat = args.cat;
     var dog = args.canine;
     return dog + cat;
 }
