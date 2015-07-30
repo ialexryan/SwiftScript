@@ -6,20 +6,25 @@ This project seeks to create an easy-to-understand and easy-to-use tool for writ
 Below are the syntax transformations that will be supported, with Swift code on the first line and the equivalent TypeScript code on the second.
 
 ---
+
 ```Swift
 let x = 5
 ```
 ```TypeScript
 const x = 5;
 ```
+
 ---
+
 ```Swift
 println("Hello")
 ```
 ```TypeScript
 console.log("Hello");
 ```
+
 ---
+
 ```Swift
 func test(cat: String, dog: String) -> String {}
 test("binx", "fido")
@@ -28,13 +33,16 @@ test("binx", "fido")
 function test(cat: string, dog: string): string {}
 test("binx", "fido");
 ```
+
 ---
+
 ```Swift
 func test(#cat: String, canine dog: String) -> String {
     return dog + cat
 }
 test(cat: "bijou", canine: "fido")
 ```
+
 ```TypeScript
 function test(args: {cat: string, canine: string}): string {
     var cat = args.cat;
@@ -43,12 +51,35 @@ function test(args: {cat: string, canine: string}): string {
 }
 test({cat: "binx", canine: "fido"})
 ```
+
 ---
+
 ```Swift
 "Hello \(a+b) world"
 ```
+
 ```TypeScript
 `Hello ${a+b} world`
 ```
+
 ---
-```Bool``` maps to ```boolean```, ```String``` maps to ```string```, and ```Int/Float/Double``` map to ```number```.
+
+`Bool` maps to `boolean`, `String` maps to `string`, and `Int`/`Float`/`Double`/ map to `number`.
+
+---
+
+## Todo:
+
+- if/else statements
+- for/while loops
+
+
+## Wishlist:
+
+- variadic functions
+- optional arguments
+- parameter default values
+- `var [x,y] = [10,20]`
+- structs to interfaces
+- classes to classes
+- lambdas
