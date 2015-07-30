@@ -1,7 +1,18 @@
 # SwiftScript
+
+## Usage:
+
+`./swiftscript.py example.swift` will output `example.swift.ts`.
+
+`./swiftscript.py example.swift --toJS` will output `example.swift.ts` and attempt to run `example.swift.ts` through the TypeScript compiler, outputting `example.swift.js`.
+
+WARNING: The SwiftScript compiler is not smart enough to make sure that it always outputs valid TypeScript! (It's literally just a few regular expressions. For now, garbage in -> garbage out :)
+
+## About:
+
 A Swift-to-JavaScript compiler would be pretty cool, since it would allow development for mobile, desktop, and web in one language. Fortunately the [TypeScript](http://www.typescriptlang.org) folks have done almost all of the hard work, and conveniently (a limited subset of) Swift can be converted to TypeScript with nothing but syntax transformations.
 
-This project seeks to create an easy-to-understand and easy-to-use tool for writing TypeScript in Swift syntax. I don't currently plan to add support for all of Swift's long list of advanced features, but we'll see how far it goes.
+This project tries to be an easy-to-understand and easy-to-use tool for **writing TypeScript in Swift syntax**. I don't currently plan to add support for all of Swift's long list of advanced features, but we'll see how far it goes.
 
 Below are the syntax transformations that will be supported, with Swift code on the first line and the equivalent TypeScript code on the second.
 
