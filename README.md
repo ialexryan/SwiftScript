@@ -75,7 +75,7 @@ test({cat: "binx", canine: "fido"})
 
 ---
 
-`Bool` maps to `boolean`, `String` maps to `string`, and `Int`/`Float`/`Double`/ map to `number`.
+`Bool` maps to `boolean`, `String` maps to `string`, and `Int`/`Float`/`Double` map to `number`.
 
 ---
 
