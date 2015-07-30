@@ -4,7 +4,7 @@
 
 `./swiftscript.py example.swift` will output `example.swift.ts`.
 
-`./swiftscript.py example.swift --toJS` will output `example.swift.ts` and attempt to run `example.swift.ts` through the TypeScript compiler, outputting `example.swift.js`.
+`./swiftscript.py --toJS example.swift` will output `example.swift.ts` and attempt to run `example.swift.ts` through the TypeScript compiler, outputting `example.swift.js`.
 
 WARNING: The SwiftScript compiler is not smart enough to make sure that it always outputs valid TypeScript! (It's literally just a few regular expressions. For now, garbage in -> garbage out :)
 
