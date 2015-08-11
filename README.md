@@ -10,7 +10,7 @@ WARNING: SwiftScript is not smart enough to make sure that it always outputs val
 
 ## About:
 
-A Swift-to-JavaScript compiler would be pretty cool, since it would allow development for mobile, desktop, and web in one language. Fortunately the [TypeScript](http://www.typescriptlang.org) folks have done almost all of the hard work, and conveniently (a limited subset of) Swift can be converted to TypeScript with nothing but syntax transformations.
+A Swift-to-JavaScript compiler would be pretty cool, since it could allow development for mobile, desktop, and web in one language. Fortunately the [TypeScript](http://www.typescriptlang.org) folks have done almost all of the hard work, and conveniently (a limited subset of) Swift can be converted to TypeScript with nothing but syntax transformations.
 
 This project tries to be an easy-to-understand and easy-to-use tool for **writing TypeScript in Swift syntax**. I don't currently plan to add support for all of Swift's long list of advanced features, but we'll see how far it goes.
 
